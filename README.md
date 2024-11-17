@@ -24,5 +24,8 @@ A Chrome extension that allows users to pin ChatGPT conversation URLs and titles
 - `host_permissions`: For `https://chat.openai.com/c/*` and `https://chatgpt.com/c/*` to retrieve conversation titles.
 - `storage`: To save pinned prompts locally.
 
+## Assets
+Designed by me using Photoshop. Feel free to download and use
+
 ## License
 MIT
