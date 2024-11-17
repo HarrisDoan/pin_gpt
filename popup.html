@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pin ChatGPT Prompts</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      min-width: 600px; /* Force a minimum width for the popup */
+    }
+  </style>
+</head>
+<body>
+  <div class="popup-background">
+    <div class="popup">
+      <h2>Pin ChatGPT Prompts</h2>
+      <!-- Input Field -->
+      <input type="text" id="prompt-url" placeholder="Paste ChatGPT URL here">
+      <!-- Save Button -->
+      <button class="remove-button" id="save-prompt">Save</button>
+      <!-- URL List -->
+      <ul id="prompt-list">
+        <!-- Dynamically populated by popup.js -->
+      </ul>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
+
